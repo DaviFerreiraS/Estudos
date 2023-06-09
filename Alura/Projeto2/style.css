@@ -1,0 +1,96 @@
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundaria: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+    --fonte-principal: 'Inter';
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    color: var(--branco-principal);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .container-aviso {
+    font-size: 12px;
+    color: var(--cinza-secundaria);
+    text-align: center;
+
+  }
+  
+  .principal {
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+  }
+  
+  .container-titulo {
+    
+    font-weight: 700;
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  .container-imagem {
+    margin: 1em 0 2em 0;
+  }
+  
+  .container-botao {
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    padding: 1em;
+    border-radius: 8px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    
+    margin-bottom: 1em;
+  }
+  
+  .botao-secundario {
+    margin-top: 15px;
+    border: 1px solid var(--branco-principal);
+    background-color: transparent;
+  }
+  
+  .container__caixa{
+    margin: 0 6em;
+  }
+
+  .secundario__imagem{
+    width: 80%;
+  }
+
+  .secundario{
+    align-items: center;
+    margin: 0 10em;
+  }
+
+  .descricao__titulo{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0.1em;
+  }
+
+  .descricao__texto{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-secundaria);
+  }

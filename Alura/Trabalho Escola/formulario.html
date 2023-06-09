@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap" rel="stylesheet">
+    <title>AI Zone</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo.jpg" class="logo"></a>
+        <nav>
+            <a href="index.html"><button class="nav__button">INTRODUÇÃO</button></a>
+            <a href=""><button class="nav__button">HISTÓRIA</button></a>
+            <a href=""><button class="nav__button">ATUALIZAÇÕES</button></a>
+        </nav>
+    </header>
+    <main>
+        <div class="caixa__iframe">
+            <h2>Como Nos Encontrar</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.1300851914693!2d-49.295784089488855!3d-25.467331377444385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3c474a560ab%3A0x3ea8db724ebd0f5!2sCol%C3%A9gio%20Pedro%20Macedo!5e0!3m2!1spt-BR!2sbr!4v1685931572688!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form>
+            <label for="nomeSobrenome">Nome e Sobrenome</label>
+            <input type="text" name="email" id="nomeSobrenome" placeholder="Nome e Sobrenome" class="input__padrao" required>
+
+            <label for="email">Endereço de Email</label>
+            <input type="email" name="email" id="email" class="input__padrao" placeholder="email@dominio.com" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="(xx) xxxxx-xxxx" class="input__padrao" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="70" rows="10" class="input__padrao" placeholder="Escreva Uma Mensagem Aqui" required></textarea>
+
+            <input type="submit" value="Enviar Formulário" class="enviar">
+        </form>
+    </main>
+    <footer>
+        <div class="footer__contato">
+            <p class="contato"> <a href="formulario.html">Fale Conosco</a></p>
+            <h3>Contatos:</h3>
+            <p>(xx)xxxxx-xxxx</p>
+            <p>email@dominio.com</p>
+        </div>
+        <p class="copyright">&copy; Web Designer Davi Ferreira da Silva Santos</p>
+    </footer>
+</body>
+
+</html>

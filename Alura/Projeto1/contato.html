@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contatost</title>
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <a href="index.html">
+                <h1 class="logo"><img src="logo.png"></h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+
+            <!--Inicio do Formulário de Preenchimento-->
+            <label for="nomeSobrenome">Nome e Sobrenome</label>
+            <input type="text" name="" id="nomeSobrenome" class="input-padrao" required placeholder="Nome e Sobrenome">
+
+            <label for="email">Endereço de Email</label>
+            <input type="email" name="" id="email" class="input-padrao" required placeholder="email@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+            <!--Placeholder é utilizado para inserir textos "Fantasmas na caixa de texto"-->
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="70" rows="10" class="input-padrao" required
+                placeholder="Insira Sua Mensagem Aqui."></textarea>
+            <!--required é utilizado para tornar obrigatório  o preenchimento de um campo-->
+
+            <!--Fim do Formulário de Preenchimento-->
+
+            <!--Inicio Formulário de Marcar-->
+
+            <fieldset>
+                <legend>Preferência de Contato</legend>
+                <label><input type="radio" value="email" name="contato">Email</label>
+                <label><input type="radio" value="sms" name="contato">SMS</label>
+                <label><input type="radio" value="whatsapp" name="contato">Whatsapp</label>
+            </fieldset>
+
+            </fieldset>
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend> <!--Titulo Semãntico do Formulário-->
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </fieldset>
+            <label> <input type="checkbox" class="checkbox"> Gostaria de Receber Nossas Novidades Por Email?</label>
+            <!--Fim do Formulário de Marcar-->
+            <input type="submit" value="Enviar Formulario" class="enviar">
+
+        </form>
+
+        <table>
+            <thead> <!--Divisão Semântica da Cabeça da Tabela-->
+                <tr>
+                    <th>Dia</th> <!--Nome semântico para td dentro do head de uma tabela-->
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody> <!--Divisão  Semântica para o corpo da tabela-->
+                <tr>
+                    <td>Segunda</td>
+                    <td>8H-20H</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8H-20H</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8H-20H</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <img src="logo-branco.png" alt="">
+        <p class="Copyright">&copy; Copyright Barbearia Alura - 2019</p>
+    </footer>
+</body>
+
+</html>

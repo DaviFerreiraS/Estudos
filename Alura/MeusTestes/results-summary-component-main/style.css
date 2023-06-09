@@ -1,0 +1,76 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f8;
+    color: #334e68;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .summary {
+    background: linear-gradient(to bottom, #333c4d, #48556a);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .circle-result {
+    background: linear-gradient(to bottom, #4c5773, #39435f);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+    line-height: 1.4;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .scores {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .score {
+    flex-basis: 23%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .continue {
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .continue:hover {
+    background-color: #ff4146;
+    transform: scale(1.1);
+  }
+  
+  .attribution {
+    font-size: 14px;
+    color: #334e68;
+    text-align: center;
+    margin-top: 40px;
+  }
+  

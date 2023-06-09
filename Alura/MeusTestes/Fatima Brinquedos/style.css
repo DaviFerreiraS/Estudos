@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #203870;
+    width: 100%;
+}
+
+.busca {
+    position: absolute;
+    top: 22px;
+    right: 200px;
+    width: 800px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid orangered;
+}
+
+/* Inicio Do Conteudo do NAV */
+
+.banner {
+    width: 100%;
+}
+
+.pagamento {
+    width: 100%;
+}
+
+nav h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+nav hr {
+    width: 300px;
+    margin: 0px auto;
+}
+
+.nav__imagem {
+    margin-top: 30px;
+    margin-left: 55px;
+    display: inline-block;
+}
+
+.nav__imagem:hover {
+    opacity: 0.5;
+}
+
+.nav__imagem2 {
+    width: 20%;
+    margin: 50px 0px 0px 50px;
+}
+
+.nav__imagem2:hover {
+    opacity: 0.5;
+}
+
+.nav__logos {
+    width: 5%;
+    margin: 100px 0px 0px 200px;
+    border: 1px solid snow;
+    box-shadow: 2;
+}
+
+/* Fim do Conteúdo do NAV */
+
+/* Inicio do conteudo do MAIN */
+main{
+    margin-bottom: 400px;
+}
+main h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+main hr {
+    width: 300px;
+    margin: 0px auto;
+}
+
+main .destaque {
+    width: 15%;
+    position: absolute;
+    top: 1340px;
+    border: 2px solid #cccccc;
+}
+
+main .destaque:hover {
+    border: 2px solid gray;
+    opacity: 0.7;
+}
+
+main .destaque__texto {
+    position: absolute;
+    top: 1550px;
+    margin-right: 65px;
+}
+
+.destaque--coala {
+    right: 1000px;
+}
+
+.destaque--corrida {
+    right: 700px;
+}
+
+.destaque--trem {
+    right: 400px;
+}
+
+.destaque--cachoeira {
+    right: 100px;
+}
+
+/* Fim do conteudo do MAIN */
